@@ -18,6 +18,11 @@ The 'params.inc.php' is missing : you need to create one with your server creden
   $dbname = "DatabaseName";
 ```
 
+## Database 
+This project uses the provided wines.sql database.
+This database comes from [here](https://www.data.gouv.fr/fr/datasets/accords-mets-et-vins/) and was parsed from the CSV file.
+The columns used for this projects are 'Nom du mets' (plate name) and 'Nom du vin' (wine name).
+
 ## Example
 For example, for the call : getwine.php?plat=oeuf, it returns you the folowwing JSON : 
 ```json
